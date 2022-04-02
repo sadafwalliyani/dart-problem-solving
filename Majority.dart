@@ -1,17 +1,19 @@
-//Write a program to find majority element of an array.
-//The given array is: 1 3 3 7 4 3 2 3 3
-
-
-
-void main(){
-
-  List num=[1,3, 3, 7, 4, 3, 2, 3, 3,];
-
-for (var i=0; i<=7; i++)
+void main() {
+  List num =[1 ,3 ,3 ,7 ,4 ,3 ,2 ,3 ,3];
+  var count=0;
+  var result;
+for(var i in num)
 {
-int majorityCOunt=1;
-
-}
-print(num);
-  
-}
+  if (count==0){
+    result=i;
+    count=1;
+  }
+  else if (result==i){
+    count=count-1;
+  }
+  else {
+    count=count-1;
+  }
+}  
+print(result);
+ }
