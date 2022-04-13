@@ -2,15 +2,17 @@
 
 void main(){
 
-Map<String, int> student = {
-    "Sadaf": 40,
+Map<String,int> student = {
+    "sadaf": 40,
     "English": 60,
     "Maths": 70,
-    "Science": 90,        
+    "Science": 90,  
+          
   };
   var values = student.values;
 var result = values.reduce((sum, element) => sum + element);
 percentage(student.keys.first,result);
+
   
   
 }
