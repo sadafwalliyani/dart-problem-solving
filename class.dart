@@ -1,3 +1,14 @@
+void main () {  
+  
+  // Creating object called std  
+  var std = new Student();  
+  std.stdName = "Sataf";  
+  std.stdAge =28;  
+  std.stdRoll_nu = 100011;  
+// Accessing class Function  
+ std.showStdInfo();  
+}  
+
 // Defining class  
  class Student {  
    var stdName;  
@@ -11,14 +22,4 @@
         print("Student Roll Number is : ${stdRoll_nu}");  
   
                }  
-}  
-void main () {  
-  
-  // Creating object called std  
-  var std = new Student();  
-  std.stdName = "Satad";  
-  std.stdAge =28;  
-  std.stdRoll_nu = 100011;  
-// Accessing class Function  
- std.showStdInfo();  
 }  
